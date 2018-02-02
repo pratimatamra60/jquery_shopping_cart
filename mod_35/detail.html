@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>detail</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/books.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Book Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul id="category-menu" class="navbar-nav mr-auto">
+              </ul>
+              <a href="cart.html" class="btn btn-outline-secondary text-success" type="button"><i class="fa fa-shopping-cart"></i> <span class="cart-amount">s</span></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col">
+      		<h1>Read more books!</h1>
+      		<p>Buy at Christophs!</p>
+      	</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+  	<div class="row">
+  		<div class="col">
+  			<h2 class="book-title"></h2>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="col-6">
+  			<img class="book-image" src="http://placehold.it/100x150">
+  		</div>
+  		<div class="col-6">
+        <dl>
+          <dt>Author</dt>
+          <dd class="book-author"></dd>
+          <dt>Year</dt>
+          <dd class="book-year"></dd>
+          <dt>Rating</dt>
+          <dd>
+            <span class="book-ratings">.. </span>
+            <span class="book-reviews">(100 Reviews)</span>
+          </dd>
+        </dl>
+        <button class="btn btn-primary cart-add">Buy this book for <span class="book-price">10</span> EUR</button>
+  		</div>
+  	</div>
+  </div>
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/shop.js"></script>
+</body>
+
+</html>

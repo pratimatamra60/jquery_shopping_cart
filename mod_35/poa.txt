@@ -1,0 +1,39 @@
+Planof Attack Booksop
+1.Layout of
+    - Category overview page
+    - Book detail page
+    - shopping Category
+2. get the live data from api
+3. make the shopping cart work
+    - needs to be persistant
+        - cookie/localstorage
+-category not filtering
+4.POA:
+-Make shopping cart
+* who, what, why
+* As a client, I want to be able to add books to my shopping cart on the detail page, so i cold buy the
+afterwards.
+* As a client, I want to able to remove an item from my shopping cart
+* As a client, I want to be able to clear my shopping cart
+* As a client, I would like to be able to view the total of my cart in the navigation bar, so i always have an
+overview.
+* As a client, I want to be able to increase and decrease the quantity of every cart item.
+* As a client I want to be ale to checkout my Category
+* list of viewed items
+
+categorymanage and books are not communicating books should be displayed only when caretory is 
+set. for this categorymanager can throw and event.
+
+shoppingManager
+-bookManager
+-categorymanager
+-shoppingCart
+
+
+menu cart button
+- go to the cart
+-display how many items/ display total value
+
+-oop Refactoring
+
+source tree
